@@ -1,0 +1,75 @@
+
+
+  body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+ 
+  }
+  h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-shadow: 1px 1px #ffffff;
+    color : white;
+    text-align:center;
+    font-size: 3rem;
+  }
+ 
+  .container {
+    width: 100%;
+    height: 650px;
+    background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/*    background-image: url("bgimgf.png");
+   background-size:cover;
+   background-repeat:no-repeat;  */
+   border-radius: 10px;
+  }
+  .flex{
+    display : flex;
+    /* justify-content: center; */
+    align-items:center;
+  }
+  .dhoni-img{
+    margin: 0 100px;
+
+  }
+  /* p{
+    color:white;
+    font-weight:bold;
+    font-size: 2rem;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+  } */
+.para{
+  width:780px;
+  height:190px;
+  color:white;
+  font-size:30.6px;
+  font-family:canva sans;
+  font-weight:bold;
+  padding-left:10px;
+}
+/* .one{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sign-img img{
+  align-content: right;
+  border-radius: 30px;
+  margin-bottom: 0;
+} */
+  footer{
+    padding: 15px 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 1.5rem;
+  }
+  footer p{
+    text-align: center;
+  }
